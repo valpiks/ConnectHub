@@ -1,0 +1,48 @@
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE / Editors
+.vscode/
+.idea/
+*.iml
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Env files
+.env
+.env.*
+!Backend/env.base
+!Frontend/.env.base
+
+# Logs
+logs/
+*.log
+
+# Coverage / test artifacts
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Flutter / Dart (top-level)
+.dart_tool/
+.flutter-plugins-dependencies
+build/
+
+# Node / web (на будущее)
+node_modules/
+
+# Docker / runtime
+docker-compose.override.yml
+*.pid
+

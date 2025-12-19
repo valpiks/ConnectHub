@@ -1,0 +1,16 @@
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# Игнорируем папку сборки
+build/
+
+# Файлы IDE
+.idea/
+*.iml
+
+.env
+
+# Локальные настройки
+local.properties
